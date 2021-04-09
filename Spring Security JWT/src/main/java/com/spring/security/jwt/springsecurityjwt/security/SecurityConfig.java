@@ -49,7 +49,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         // desactivation la syncronisation des token
         http.csrf().disable();
 
-        // desativation des session, en mode STATELESS
+        // desativation des session, en mode STATELESS sans etat
         http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
         // parti a login ne néssecite pas d'authentification

@@ -8,10 +8,10 @@ import com.spring.security.jwt.springsecurityjwt.entities.AppUser;
  */
 public interface AccountService {
 
-    public AppUser saveUser(AppUser user);
-    public AppRole saveRole(AppRole role);
+    AppUser saveUser(AppUser user);
+    AppRole saveRole(AppRole role);
 
-    public void addRoleToUser(String username , String RoleName);
-    public AppUser findUserByName(String userName);
+    void addRoleToUser(String username , String RoleName);
+    AppUser findUserByName(String userName);
 
 }

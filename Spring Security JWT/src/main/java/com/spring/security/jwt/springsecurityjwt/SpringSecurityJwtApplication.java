@@ -50,7 +50,7 @@ public class SpringSecurityJwtApplication implements CommandLineRunner {
         accountService.saveUser(new AppUser(null, "user", "123",null));
         accountService.saveUser(new AppUser(null, "max", "123",null));
 
-        // recation des roles
+        // creation des roles
         accountService.saveRole(new AppRole(null,"ADMIN"));
         accountService.saveRole(new AppRole(null,"USER"));
 
