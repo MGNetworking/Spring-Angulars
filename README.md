@@ -1,11 +1,9 @@
 # Projet Spring security et angular v10
 
-Ce projet et un exercice qui pour but d'apprendre la gestion des Json Web Token
-dans le context d'application Spring Boot et Angulars.
+Ce projet est un exercice visant à apprendre la gestion des JSON Web Tokens (JWT) dans le cadre d'une application Spring Boot et Angular.
 
-Dans le context Spring, le version de Java 1.8 et utiliser avec le 
-gestion de dependance Maven.
-Dans le context d'angular la version 10 de celui-ci est utiliser. 
+Côté Spring, la version Java 1.8 est utilisée, avec Maven comme gestionnaire de dépendances.
+Côté Angular, c'est la version 10 qui est mise en œuvre.
 
 ## Spring Boot project
 
